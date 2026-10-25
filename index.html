@@ -1,23 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SnapPuzz Legal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SnapPuzz - サポート</title>
+<meta name="description" content="SnapPuzz は、撮った写真やライブラリの写真をそのままジグソーパズルにして遊べる iOS アプリです。毎日1問のデイリーパズルは、ホーム画面やロック画面のウィジェットからすぐに確認できます。">
+<link rel="icon" href="app-icon.png">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; max-width: 540px; margin: 80px auto; padding: 0 20px; line-height: 1.7; color: #222; text-align: center; }
-  h1 { color: #6BBF8A; }
-  ul { list-style: none; padding: 0; }
-  li { margin: 12px 0; }
-  a { color: #4F46E5; text-decoration: none; font-size: 18px; }
-  a:hover { text-decoration: underline; }
+:root{
+  --bg:#F6F4EF; --card:#FFFFFF; --ink:#24222B; --sub:#7F7A72; --accent:#4F46E5;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#17161C; --card:#24222D; --ink:#F2EFE8; --sub:#A6A1B0; --accent:#8B85EE; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:48px 20px}
+.logo{display:flex;align-items:center;gap:14px}
+.logo h1{margin:0;font-size:34px;font-weight:800;line-height:1.3}
+.tagline{color:var(--sub);font-weight:600;margin-top:4px}
+.mark{flex:none;width:56px;height:56px;border-radius:13px}
+.lang-link{margin-top:14px;font-size:14px}
+.card{background:var(--card);border-radius:22px;padding:24px 28px;margin-top:24px;box-shadow:0 3px 12px rgba(40,30,20,.08)}
+h2{font-size:20px;margin:0 0 10px}
+.section-lang{font-size:24px;margin:56px 0 0}
+ul{padding-left:20px;margin:8px 0}
+li+li{margin-top:6px}
+a{color:var(--accent);font-weight:700;word-break:break-all}
+footer{color:var(--sub);font-size:13px;margin-top:40px;text-align:center}
 </style>
 </head>
 <body>
-<h1>SnapPuzz</h1>
-<ul>
-  <li><a href="privacy-policy.html">プライバシーポリシー / Privacy Policy</a></li>
-  <li><a href="terms.html">利用規約 / Terms of Service</a></li>
-</ul>
+<div class="wrap">
+  <div class="logo">
+    <img class="mark" src="app-icon.png" width="56" height="56" alt="">
+    <div>
+      <h1>SnapPuzz</h1>
+      <div class="tagline">写真が、ジグソーパズルに。</div>
+    </div>
+  </div>
+  <div class="lang-link"><a href="#en" lang="en">English</a></div>
+
+  <div class="card">
+    <h2>SnapPuzz について</h2>
+    <p>SnapPuzz は、撮った写真やライブラリの写真をそのままジグソーパズルにして遊べる iOS アプリです。毎日1問のデイリーパズルは、ホーム画面やロック画面のウィジェットからすぐに確認できます。</p>
+    <ul>
+      <li><strong>自分の写真でパズル</strong> — 写真を選ぶか撮るだけで、すぐにパズルが始まります</li>
+      <li><strong>デイリーパズル</strong> — 毎日1問。完成した日の写真は思い出アルバムに残ります</li>
+      <li><strong>7段階の難易度</strong> — 3×3 から 12×12 まで。Pro ではグランドマスター 16×16 と回転モードも遊べます</li>
+      <li><strong>ウィジェット</strong> — ホーム画面・ロック画面で今日のパズルと挑戦状況をひと目で確認できます</li>
+    </ul>
+    <p>40種類のプリセット写真は最初から無料で遊べます。</p>
+  </div>
+
+  <div class="card">
+    <h2>サポート</h2>
+    <p>不具合のご報告・ご要望・ご質問は、下記メールアドレスまでお気軽にご連絡ください。</p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=SnapPuzz%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">app.info.kn@gmail.com</a></p>
+    <p>よくある質問:</p>
+    <ul>
+      <li><strong>購入を復元するには？</strong> — ホーム画面右上の王冠ボタン、または「設定」の「SnapPuzz Pro にアップグレード」から購入画面を開き、「購入を復元」をタップしてください。</li>
+      <li><strong>Pro はサブスクリプションですか？</strong> — 月額プラン・年額プラン（どちらも7日間の無料トライアル付きの自動更新サブスクリプション）と、自動更新のない買い切りの3種類からお選びいただけます。サブスクリプションは Apple ID のアカウント設定からいつでも管理・解約できます。</li>
+      <li><strong>写真はどこかに送られますか？</strong> — いいえ。写真とパズルのデータは端末内に保存され、外部のサーバーには送信されません。今日のパズルにライブラリの写真を使いたくない場合は、「設定」の「今日のパズルにアルバムの写真を使う」をオフにしてください。</li>
+      <li><strong>今日のパズルはいつ変わりますか？</strong> — 端末の日付で、毎日0時に新しいパズルに切り替わります。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>プライバシー</h2>
+    <ul>
+      <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
+      <li><a href="terms.html">利用規約</a></li>
+    </ul>
+  </div>
+
+  <h2 class="section-lang" id="en" lang="en">English</h2>
+  <div lang="en">
+  <div class="card">
+    <h2>About SnapPuzz</h2>
+    <p>SnapPuzz turns photos you take or pick from your library into jigsaw puzzles. A new Daily Puzzle arrives every day, and you can check it at a glance from your Home Screen or Lock Screen widget.</p>
+    <ul>
+      <li><strong>Your own photos</strong> — Pick or snap a photo and your puzzle is ready in seconds</li>
+      <li><strong>Daily Puzzle</strong> — A new puzzle every day; each finished day is saved to your Memory Album</li>
+      <li><strong>7 difficulty levels</strong> — From 3×3 to 12×12, plus Grandmaster 16×16 and Rotation mode with Pro</li>
+      <li><strong>Widgets</strong> — See today&#x27;s puzzle and your progress on the Home Screen and Lock Screen</li>
+    </ul>
+    <p>40 preset photos are included free.</p>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>For bug reports, feature requests or questions, please email us at the address below.</p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=SnapPuzz%20inquiry">app.info.kn@gmail.com</a></p>
+    <p>FAQ:</p>
+    <ul>
+      <li><strong>How do I restore my purchase?</strong> — Tap the crown button at the top right of the home screen, or go to Settings and tap “Upgrade to SnapPuzz Pro”. Then tap “Restore purchases” on the purchase screen.</li>
+      <li><strong>Is Pro a subscription?</strong> — You can choose Monthly or Yearly (auto-renewing subscriptions, each with a 7-day free trial) or Lifetime, a one-time purchase that never renews. You can manage or cancel subscriptions anytime in your Apple ID account settings.</li>
+      <li><strong>Are my photos uploaded anywhere?</strong> — No. Your photos and puzzle data stay on your device and are never sent to a server. If you don&#x27;t want library photos used for Today&#x27;s puzzle, turn off “Use album photos for Today&#x27;s puzzle” in Settings.</li>
+      <li><strong>When does the Daily Puzzle change?</strong> — A new puzzle starts at midnight, based on your device&#x27;s date.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <ul>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+    </ul>
+  </div>
+  </div>
+
+  <footer>© 2026 Koya Nambo — SnapPuzz</footer>
+</div>
 </body>
 </html>
